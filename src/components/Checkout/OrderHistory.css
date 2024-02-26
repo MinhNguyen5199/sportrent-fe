@@ -1,0 +1,218 @@
+.order-history {
+    margin-top: 50px;
+}
+
+.order_header {
+    font-size: 18px !important;
+    padding-left: 10px;
+}
+
+.order-item {
+    border-bottom: 1px solid #dee2e6;
+    padding: 10px 0px !important;
+    color: var(--black-color);
+}
+
+.order-item__date,
+.order_title {
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.order-item__total-price {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.order_header {
+    color: rgb(152, 155, 155) !important;
+    font-size: 14px;
+}
+
+.subtitle {
+    font-weight: 500;
+    font-size: 13px;
+}
+
+.fa .fa-chevron-up .fa-chevron-down {
+    font-size: 20px;
+    font-weight: 700;
+    color: #6a6a6b;
+    padding: 25px 0px 0px 40px;
+}
+
+.reservation-status {
+    font-size: 10px;
+}
+
+
+/* items  */
+
+.items {
+    background-color: #a5a5a9;
+}
+
+.item-header {
+    background-color: #f9f9f9;
+    border-bottom: 1px solid #ddd;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    margin: 15px 0px;
+    padding-bottom: 10px !important;
+    color: var(--black-color);
+    font-weight: 700;
+}
+
+.item {
+    /* padding: 1rem rem !important; */
+    border-bottom: 1px solid #ddd !important;
+}
+
+.images img {
+    height: 50px;
+    object-fit: contain;
+    padding: 5px;
+}
+
+.subtotal {
+    font-weight: bold;
+    padding-top: 15px !important;
+}
+
+.total {
+    margin-top: 1rem;
+    padding: 0rem 1rem;
+    font-weight: bold;
+}
+
+.prod {
+    font-weight: 500;
+    font-size: 13px;
+    padding-top: 18px;
+}
+
+.qty {
+    padding: 15px 0 0 35px !important;
+}
+
+.items_list {
+    border-top: solid 1px #c1c1c299;
+    border-bottom: solid 1px #c1c1c299;
+}
+
+.receipt {
+    margin-top: 20px;
+    /* border-top: 1px solid #ccc; */
+    background-color: #f9f9f9;
+    width: 95%;
+}
+
+
+/* .container-sm {
+    margin-top: 20px;
+}
+
+.container {
+    background-color: #f9f9f9;
+    padding: 20px;
+}
+
+.reservations :active {
+    background-color: rgba(255, 255, 255, 0.801);
+}
+
+.reservations:hover {
+    background-color: rgba(246, 251, 226, 0.801);
+}
+
+.order_header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.reservations {
+    cursor: pointer;
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+}
+
+.order-item__date {
+    font-weight: bold;
+}
+
+.reservation_status {
+    font-weight: bold;
+}
+
+.order-item__pickup,
+.order-item__return {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.order-item__order-number {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.order-item__total-price {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.fa {
+    cursor: pointer;
+}
+
+.receipt {
+    display: none;
+    margin-top: 20px;
+    padding-top: 10px;
+    border-top: 1px solid #ccc;
+}
+
+.receipt.show {
+    display: block;
+}
+
+.item-header {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.item {
+    margin-top: 10px;
+}
+
+.header-image,
+.header-product,
+.header-qty,
+.header-price,
+.header-subtotal {
+    font-weight: bold;
+}
+
+.images {
+    text-align: center;
+}
+
+.prod {
+    font-weight: bold;
+}
+
+.qty {
+    text-align: center;
+}
+
+.subtotal {
+    text-align: right;
+}
+
+.total {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.text-end {
+    text-align: end;
+} */

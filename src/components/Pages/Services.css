@@ -1,0 +1,170 @@
+header {
+    padding: 20px 0px;
+}
+
+.header-desc {
+    font-size: var(--font-size-base);
+    font-weight: 600;
+    padding: 5px 0px 15px 0px;
+}
+
+
+/* Services section styles */
+
+.services-section {
+    background-color: #f5f5f5;
+    padding: 20px;
+    width: 100%;
+    /* text-align: center; */
+}
+
+.our-services {
+    font-size: var(--font-size-sm);
+}
+
+.our-services-disclaimer {
+    font-size: var(--font-size-sm);
+    font-style: italic;
+}
+
+
+/* Style for the tune-up-content section */
+
+.tune-up-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+/* Style for the tune-up-text and tune-up-image columns */
+
+.tune-up-text {
+    flex: 1;
+}
+
+.tune-up-image {
+    flex: 1;
+    text-align: center;
+    /* To center the image horizontally */
+}
+
+
+/* Additional styles for the image */
+
+.tune-up-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+.complete-tune-up {
+    color: var(--primary-color);
+}
+
+.complete-tune-up-price {
+    color: var(--blue-color);
+}
+
+.winter-price {
+    font-family: 'Oswald', sans-serif;
+    font-size: var(--font-size-base);
+}
+
+.winter-price span {
+    font-family: "Roboto", sans-serif;
+    font-size: var(--font-size-sm);
+}
+
+.tune-up-image-winter {
+    position: relative;
+    max-width: 100%;
+    height: auto;
+    margin: 30px 0px;
+}
+
+.winterService-image {
+    width: 100%;
+    height: 300px;
+}
+
+.service-address {
+    margin-top: 20px;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+
+/* Style for the service-rates-content section */
+
+.service-rates-content {
+    padding: 0px;
+    /* background-color: #f5f5f5; */
+}
+
+
+/* Style for the table within the service-rates-content */
+
+.service-rates-content table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #ddd;
+}
+
+
+/* Style for table headings (th) */
+
+.service-rates-content th {
+    background-color: #222;
+    color: #fff;
+    padding: 10px;
+    text-align: left;
+}
+
+
+/* Style for table rows (even and odd) */
+
+.service-rates-content tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.service-rates-content tr:nth-child(odd) {
+    background-color: #fff;
+}
+
+
+/* Style for table cells (td) */
+
+.service-rates-content td {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+
+/* Style for the table cell with rates */
+
+.service-rates-content td:last-child {
+    /* text-align: right; */
+}
+
+
+/* Add additional styles as needed */
+
+.fa-check-circle {
+    color: green;
+}
+
+
+/* Tune-up section styles */
+
+.tune-up-section {
+    background-color: #fff;
+    padding: 20px;
+    width: 100%;
+    /* text-align: center; */
+}
+
+@media (max-width: 768px) {
+    .tune-up-image {
+        display: none;
+    }
+}

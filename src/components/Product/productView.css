@@ -1,0 +1,75 @@
+.card {
+    margin-bottom: 30px;
+}
+
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 0 solid transparent;
+    border-radius: 0;
+}
+
+.card-body {
+    margin: -20px;
+}
+
+.card .card-title {
+    padding-left: 30px;
+}
+
+.card .card-subtitle {
+    font-weight: 300;
+    margin-bottom: 10px;
+    color: #8898aa;
+    padding-left: 30px;
+}
+
+.table-product.table-striped tbody tr:nth-of-type(odd) {
+    background-color: #f3f8fa!important
+}
+
+.table-product td {
+    border-top: 0px solid #dee2e6 !important;
+    color: #728299!important;
+}
+
+.img-responsive {
+    width: 430px;
+    height: 500px
+}
+
+.btns {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    justify-content: flex-start;
+    padding-top: 20px;
+}
+
+.subtitle {
+    margin: 0;
+    font-size: 16px;
+    color: coral;
+    font-weight: 600;
+}
+
+.price {
+    font-size: 10px;
+    color: green;
+    margin-right: 5px;
+}
+
+@media screen and (max-width:780px) {
+    .img-responsive {
+        width: 360px;
+        height: 400px
+    }
+    .btn {
+        font-size: 12px
+    }
+}

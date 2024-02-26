@@ -1,0 +1,62 @@
+.bor-red {
+    border: 1px solid red;
+}
+
+.bor-blue {
+    border: 1px solid rgb(197, 197, 197);
+}
+
+.bor-green {
+    border: 1px solid green;
+}
+
+.sr-page-header {
+    background-color: transparent;
+    padding-top: 20px;
+}
+
+.form-msg {
+    display: flex;
+    flex-direction: column;
+}
+
+.gen-page {
+    width: 1000px;
+    margin: 0px auto;
+    padding: 0px 20px;
+    padding-bottom: 20px;
+}
+
+.sr-section {
+    display: flex;
+}
+
+.btn-send {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+}
+
+.div-contact {
+    margin-left: 80px;
+}
+
+@media only screen and (max-width: 1000px) {
+    .gen-page {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 728px) {
+    .sr-section {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }
+    .div-contact {
+        margin-top: 20px;
+        margin-left: 0px;
+        padding-top: 20px;
+        border-top: 1px solid rgb(224, 224, 224);
+    }
+}

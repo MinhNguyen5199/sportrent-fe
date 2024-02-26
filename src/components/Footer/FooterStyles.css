@@ -1,0 +1,114 @@
+.sr-footer {
+    /* width: 100vw; */
+    padding-top: 30px;
+    background-color: var(--black-color);
+}
+
+.sr-footer-links {
+    padding: 0px 30px;
+    padding-bottom: 10px;
+    /* display: flex; */
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(0px, 1fr));
+    justify-content: center;
+}
+
+.sr-footer-links h4 {
+    color: rgb(189, 189, 189);
+}
+
+.sr-footer-links ul {
+    list-style-type: none;
+    /* line-height: 35px; */
+    /* margin-top: 20px; */
+    padding: 0px;
+    color: rgb(189, 189, 189);
+}
+
+.sr-footer-links h4 {
+    color: rgb(224, 224, 224);
+}
+
+.sr-footer-links a {
+    text-decoration: none;
+    color: rgb(189, 189, 189);
+    font-size: 16px;
+}
+
+.sr-footer-links p {
+    margin-top: 20px;
+    text-decoration: none;
+    color: rgb(189, 189, 189);
+    font-size: 13px;
+}
+
+.sr-footer-links a:hover {
+    text-decoration: none;
+    color: rgb(252, 252, 252);
+    font-size: 13px;
+}
+
+.sr-footer-copy {
+    border-top: 1px solid rgb(52, 60, 75);
+    padding: 20px 50px;
+    color: rgb(189, 189, 189);
+    font-size: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sr-f-group {
+    display: flex;
+    flex-direction: row;
+}
+
+.bor-red {
+    border: 1px solid red;
+}
+
+.sr-footer-links-item {
+    width: 330px;
+    justify-content: flex-start;
+}
+
+.sr-footer-links-item a {
+    font-size: 13px;
+}
+
+@media only screen and (max-width: 1424px) {
+    .sr-footer-links {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .sr-footer-links-item {
+        padding-top: 20px;
+    }
+}
+
+@media all and (min-width: 320px) and (max-width: 780px) {
+    .sr-footer {
+        padding: 0px;
+    }
+    .sr-footer-links {
+        padding: 0px 20px;
+        padding-bottom: 0px;
+    }
+    .sr-footer-links a {
+        font-size: 15px;
+    }
+    .sr-footer-links p {
+        margin-top: 10px;
+        font-size: 14px;
+    }
+    .sr-footer-links-item {
+        width: 100vw;
+        justify-content: flex-start;
+    }
+    .sr-footer-copy {
+        display: flex;
+        flex-direction: column;
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+}

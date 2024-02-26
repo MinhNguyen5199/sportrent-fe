@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.67c553ea.css",
+    "main.js": "/static/js/main.a42c0ac4.js",
+    "static/js/334.aa6d292e.chunk.js": "/static/js/334.aa6d292e.chunk.js",
+    "static/js/787.cda612ba.chunk.js": "/static/js/787.cda612ba.chunk.js",
+    "static/media/cover_01.jpg": "/static/media/cover_01.a3bbefeba91a49f700da.jpg",
+    "static/media/Bicycle.png": "/static/media/Bicycle.efa4a15e46a238d7e486.png",
+    "static/media/homebanner.png": "/static/media/homebanner.44316d1fd2fa5963ac98.png",
+    "static/media/slide1.png": "/static/media/slide1.df7bfc354c68de291270.png",
+    "static/media/password_reset.png": "/static/media/password_reset.280778772e4da5a9a6b9.png",
+    "static/media/slide3.png": "/static/media/slide3.de1bf1454cfa5bd98eb8.png",
+    "static/media/slide2.png": "/static/media/slide2.bcb35976e9537807dcc8.png",
+    "static/media/rafts.png": "/static/media/rafts.6f969ba3f89ecf5180d2.png",
+    "static/media/bike.png": "/static/media/bike.23f1f476c3547505087c.png",
+    "index.html": "/index.html",
+    "static/media/icon.webp": "/static/media/icon.cdf0a825f07938877cd6.webp",
+    "main.67c553ea.css.map": "/static/css/main.67c553ea.css.map",
+    "main.a42c0ac4.js.map": "/static/js/main.a42c0ac4.js.map",
+    "334.aa6d292e.chunk.js.map": "/static/js/334.aa6d292e.chunk.js.map",
+    "787.cda612ba.chunk.js.map": "/static/js/787.cda612ba.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.67c553ea.css",
+    "static/js/main.a42c0ac4.js"
+  ]
+}

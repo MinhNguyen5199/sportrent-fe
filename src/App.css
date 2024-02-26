@@ -1,0 +1,35 @@
+.desc::after {
+    content: "\a";
+    white-space: pre;
+}
+
+.desc {
+    padding-left: 75px;
+}
+
+.product {
+    position: absolute;
+    width: 40%;
+    height: 100%;
+    top: 10%;
+    left: 60%;
+}
+
+button {
+    /* background: #FFD800; */
+    padding: 10px;
+    display: inline-block;
+    outline: 0;
+    border: 0;
+    margin: -1px;
+    border-radius: 2px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    /* color: #F5F5F5; */
+    cursor: pointer;
+}
+
+button:hover {
+    /* background: #FF9F05; */
+    /* transition: all .4s ease-in-out; */
+}

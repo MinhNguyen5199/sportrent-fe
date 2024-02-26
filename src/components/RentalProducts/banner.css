@@ -1,0 +1,89 @@
+.rentalBanner {
+    padding: 40px 20px;
+    background-color: #78b0b2c4;
+    /* background-color: var(--primary-color); */
+    border-radius: 0px;
+    position: relative;
+    height: 250px;
+    line-height: 0.9;
+    width: 100%;
+    margin-top: 0%;
+    margin-bottom: 20px;
+}
+
+.rentalBanner .productName {
+    font-size: 20px;
+}
+
+.rentalBanner button {
+    border-radius: 15px;
+    padding: 10px 16px;
+    background-color: #042b09;
+    color: white;
+    border: none;
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    z-index: 10000 !important;
+}
+
+.rentalBanner h3 {
+    font-size: 2.3rem;
+    margin-top: 0px;
+    color: #042b09;
+    font-weight: 700;
+}
+
+.rentalBanner h1 {
+    color: #ffffff;
+    font-size: 4em;
+    margin-left: -20px;
+    text-transform: uppercase;
+}
+
+.rentalBanner-image {
+    position: absolute;
+    top: 10%;
+    right: 10%;
+    width: 400px;
+    height: 270px;
+    /* z-index: 1; */
+    overflow: hidden;
+    display: inline
+}
+
+.desc {
+    position: absolute;
+    right: 7%;
+    bottom: 5%;
+    width: 440px;
+    line-height: 1.3;
+    display: flex;
+    flex-direction: column;
+    color: #324d67;
+}
+
+.desc p {
+    color: #5f5f5f;
+    font-weight: 100;
+    text-align: end;
+}
+
+.desc h5 {
+    margin-bottom: 12px;
+    font-weight: 700;
+    font-size: 16px;
+    /* color: black; */
+    align-self: flex-end;
+}
+
+
+/* h1.ad-header {
+    overflow: hidden;
+    text-align: left;
+    margin: 0px;
+    font-size: 18px;
+    font-weight: 800;
+    color: var(--black-color);
+} */

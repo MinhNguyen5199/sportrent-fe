@@ -1,0 +1,113 @@
+:root {
+    --primary-color: #ffcc33;
+    /* #FFD800; */
+    --white-color: #FFFFFF;
+    --blue-color: #0606BC;
+    --black-color: #000000;
+    /* Faded Version 1 */
+    --primary-color-light: #fff8d7;
+    /* #FFEBCA; */
+    --white-color-light: #F2F2F2;
+    --blue-color-light: #B2C9FF;
+    --black-color-light: #6E6E6E;
+    /* Faded Version 2 */
+    --primary-color-medium: #F2B305;
+    /* #FFEF99; */
+    --white-color-medium: #DADADA;
+    --blue-color-medium: #8080FF;
+    --black-color-medium: #404040;
+    /* Faded Version 3 */
+    --primary-color-dark: #f3b306;
+    /* #FFD351; */
+    --white-color-dark: #CFCFCF;
+    --blue-color-dark: #0000A0;
+    --black-color-dark: #262626;
+    /* --webBackground-color: #f4f4f4; */
+    --webBackground-color: #fff;
+    /* App font family */
+    --main-font: "DM Sans", sans-serif;
+    /* App font size */
+    --font-size-sm: clamp(0.7rem, 0.17vw + 0.76rem, 0.8rem);
+    --font-size-base: clamp(1rem, 0.34vw + 0.91rem, 1.19rem);
+    --font-size-md: clamp(1.25rem, 0.61vw + 1.1rem, 1.58rem);
+    --font-size-lg: clamp(1.56rem, 1vw + 1.31rem, 2.21rem);
+    --font-size-xl: clamp(1.95rem, 1.56vw + 1.56rem, 2.81rem);
+    --font-size-xxl: clamp(2.44rem, 2.38vw + 1.85rem, 3.75rem);
+    --font-size-xxxl: clamp(3.05rem, 3.54vw + 2.17rem, 5rem);
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box !important;
+}
+
+h1 {
+    font-size: var(--font-size-xxxl);
+}
+
+h2 {
+    font-size: var(--font-size-xxl);
+}
+
+h3 {
+    font-size: var(--font-size-xl);
+}
+
+h4 {
+    font-size: var(--font-size-lg);
+}
+
+h5 {
+    font-size: var(--font-size-md);
+}
+
+p {
+    font-size: var(--font-size-base);
+}
+
+html,
+body,
+#root,
+.app {
+    font-family: var(--main-font);
+    height: 100%;
+    width: 100%;
+    color: #000000;
+    background-color: var(--webBackground-color);
+}
+
+
+/* Mobile */
+
+@media (max-width: 480px) {
+    /* code */
+}
+
+
+/* Tablet */
+
+@media (max-width: 768px) {
+    /* code */
+}
+
+
+/* Desktop */
+
+@media (max-width: 1024px) {
+    /* code */
+}
+
+
+/* Large Desktop */
+
+@media (max-width: 1200px) {
+    /* code */
+}
+
+
+/* Extra Large desktop */
+
+@media (max-width: 1920px) {
+    /* code */
+}

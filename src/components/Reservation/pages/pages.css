@@ -1,0 +1,7 @@
+.sr-pg-entries {
+}
+
+.sr-container {
+  display: flex;
+  flex-direction: column;
+}

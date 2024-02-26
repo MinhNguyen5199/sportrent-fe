@@ -1,0 +1,24 @@
+.NoResult {
+    display: none;
+}
+
+.result {
+    background-color: #fafafa;
+    width: 98%;
+}
+
+.search_title {
+    display: inline-block;
+    padding: .5rem 2rem;
+    margin-top: 10px;
+    color: var(--black-color);
+    font-weight: 700;
+}
+
+.search_title:first-letter {
+    /* text-transform: uppercase; */
+}
+
+.main-container {
+    margin-top: 100px !important;
+}
